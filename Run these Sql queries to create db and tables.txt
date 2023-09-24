@@ -1,0 +1,15 @@
+create database dest_projects;
+
+create table admin(admin_id varchar(30), admin_pwd varchar(10);
+
+insert into admin value(admin@123, Admin123);
+
+create table Customers(custId varchar(30), 
+	           custName varchar(30), 
+		   accno int, 
+		   password varchar(10),
+		   balance int,
+		   bankName varchar(30),
+		   ifscCode varchar(10),
+                   email varchar(60) 
+		   );
